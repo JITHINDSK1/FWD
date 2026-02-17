@@ -1,0 +1,29 @@
+﻿<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Responsive Layout</title>
+
+    <style>
+      body { font-family: Arial, sans-serif; margin: 24px; }
+      .container { display: grid; grid-template-columns: 2fr 1fr; gap: 12px; }
+      .panel { padding: 12px; background: #f1f5f9; }
+      @media (max-width: 700px) { .container { grid-template-columns: 1fr; } }
+      img { max-width: 100%; height: auto; display: block; margin-top: 12px; }
+    </style>
+  </head>
+
+  <body>
+    <h1>Responsive Layout</h1>
+    <div class="container">
+      <div class="panel">Main content</div>
+      <div class="panel">Sidebar</div>
+    </div>
+
+    <img src="assets/media-breakpoints.jpg" alt="Common breakpoints" />
+  </body>
+
+</html>

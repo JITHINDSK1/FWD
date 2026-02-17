@@ -1,0 +1,32 @@
+﻿<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Grid Layout</title>
+
+    <style>
+      body { font-family: Arial, sans-serif; margin: 24px; }
+      .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+      .tile { padding: 12px; background: #fde68a; }
+      img { max-width: 100%; height: auto; display: block; margin-top: 12px; }
+    </style>
+  </head>
+
+  <body>
+    <h1>Grid Layout</h1>
+    <div class="grid">
+      <div class="tile">Grid A</div>
+      <div class="tile">Grid B</div>
+      <div class="tile">Grid C</div>
+      <div class="tile">Grid D</div>
+      <div class="tile">Grid E</div>
+      <div class="tile">Grid F</div>
+    </div>
+
+    <img src="assets/flex-vs-grid.jpg" alt="Flexbox vs Grid comparison" />
+  </body>
+
+</html>

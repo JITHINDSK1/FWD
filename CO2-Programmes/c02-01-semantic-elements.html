@@ -1,0 +1,64 @@
+﻿<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Semantic Elements</title>
+
+    <style>
+      body { font-family: "Georgia", serif; margin: 24px; }
+      header, nav, main, section, article, aside, footer { padding: 12px; border: 1px solid #ddd; margin-bottom: 12px; }
+      nav a { margin-right: 10px; }
+      img { max-width: 100%; height: auto; display: block; }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Semantic Layout Example</h1>
+      <p>Header for site title and tagline.</p>
+    </header>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+      <section id="home">
+        <h2>Home Section</h2>
+        <p>Section groups related content.</p>
+      </section>
+
+      <section id="blog">
+        <h2>Blog Section</h2>
+        <article>
+          <h3>Article One</h3>
+          <p>Articles are independent, reusable content blocks.</p>
+        </article>
+        <article>
+          <h3>Article Two</h3>
+          <p>Each article stands on its own.</p>
+        </article>
+      </section>
+
+      <aside>
+        <h3>Sidebar</h3>
+        <p>Aside holds related links or notes.</p>
+      </aside>
+    </main>
+
+    <figure>
+      <img src="assets/semantic.png" alt="Semantic layout reference" />
+      <figcaption>Reference: semantic layout diagram.</figcaption>
+    </figure>
+
+    <footer>
+      <p>Footer for copyright and contact info.</p>
+    </footer>
+  </body>
+
+</html>

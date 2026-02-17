@@ -1,0 +1,41 @@
+﻿<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Basic Page Layout</title>
+
+    <style>
+      body { margin: 0; font-family: Arial, sans-serif; }
+      header, nav, main, aside, footer { padding: 12px; }
+      nav { background: #eee; }
+      main { display: grid; grid-template-columns: 2fr 1fr; gap: 12px; }
+      footer { background: #f6f6f6; }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Site Header</h1>
+    </header>
+
+    <nav>Home | About | Contact</nav>
+
+    <main>
+      <section>
+        <h2>Main Content</h2>
+        <p>This is the primary content area.</p>
+      </section>
+
+      <aside>
+        <h3>Sidebar</h3>
+        <p>Related links or notes.</p>
+      </aside>
+    </main>
+
+    <footer>Footer content</footer>
+  </body>
+
+</html>

@@ -1,0 +1,29 @@
+﻿<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Animation</title>
+
+    <style>
+      body { font-family: Arial, sans-serif; margin: 24px; }
+      .pulse { width: 160px; padding: 16px; background: #fde68a; animation: pulse 1.6s infinite; }
+      @keyframes pulse {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.05); }
+        100% { transform: scale(1); }
+      }
+      img { max-width: 100%; height: auto; display: block; margin-top: 12px; }
+    </style>
+  </head>
+
+  <body>
+    <h1>Animation</h1>
+    <div class="pulse">Auto-running animation</div>
+
+    <img src="assets/transition-vs-animation.jpg" alt="Transition vs Animation" />
+  </body>
+
+</html>

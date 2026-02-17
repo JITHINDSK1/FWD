@@ -1,0 +1,36 @@
+﻿<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Form Validation</title>
+
+    <style>
+      body { font-family: Arial, sans-serif; margin: 24px; }
+      form { max-width: 420px; }
+      label { display: block; margin: 12px 0 6px; }
+      input { width: 100%; padding: 8px; }
+      .error { color: #b91c1c; font-size: 0.9rem; }
+      button { margin-top: 14px; padding: 10px 14px; }
+    </style>
+  </head>
+
+  <body>
+    <h1>Form Validation</h1>
+
+    <form>
+      <label for="email">Email (required)</label>
+      <input id="email" type="email" required placeholder="name@example.com" />
+      <div class="error">Please enter a valid email.</div>
+
+      <label for="password">Password (min 6)</label>
+      <input id="password" type="password" minlength="6" required />
+      <div class="error">Password must be at least 6 characters.</div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+
+</html>
